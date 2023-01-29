@@ -20,7 +20,7 @@ body {
     
     width: 100%;
     min-width: 150px;
-    height: 150px;
+    height: 130px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -29,10 +29,14 @@ body {
     background-color: #333;
 }
 
+.header__logo {
+
+    padding: 9px;
+}
+
 .header__logo img {
 
     width: 9.5rem;
-    margin-bottom: 20px;
     background-color: #ffff;
     
     
@@ -89,9 +93,10 @@ body {
 .text {
 
     margin-bottom: 5px;
-    font-size: 0.95rem;
+    font-size: 1.5rem;
     color: #84734d;
     font-weight: bolder;
+    
 }
 
 .product-figure__p {
@@ -219,7 +224,7 @@ hr {
 
 .email-capture__title {
 
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .black-button {
@@ -241,7 +246,7 @@ hr {
 .follow-us {
 
     margin-bottom: 15px;
-    font-size: 1.17rem;
+    font-size: 1.5rem;
 }
 
 .social-media__logos {
@@ -265,6 +270,7 @@ hr {
     .header {
 
         flex-direction: row;
+        height: 100px;
     }
 
     .nav {
@@ -285,15 +291,11 @@ hr {
 
   .header {
 
-    height: 60px;
+    height: 100px;
   }
    
 
-   .header__logo img {
-     
-    margin-top: 20px;
 
-   }
 
 
   .nav__list li a {
@@ -307,6 +309,13 @@ hr {
     display: flex;
 
    }
+
+   #walnut {
+
+    width: 27rem;
+   }
+
+  
 
    
  .description__title h2 {
@@ -330,6 +339,8 @@ hr {
     margin-bottom: 80px;
    }
 
+  
+
    .figure__title {
 
     font-size: 2.5rem;
@@ -340,6 +351,11 @@ hr {
     padding: 50px;
     font-size: 2.0rem;
     margin-top: -15px;
+   }
+
+   #walnut {
+
+    width: 27rem;
    }
 
    .product-figure__span {
@@ -367,6 +383,11 @@ hr {
     font-size: 1.1rem;
    }
 
+   .footer__common-wrapper {
+
+    display: flex;
+    justify-content: space-evenly;
+   }
 
 }
 
