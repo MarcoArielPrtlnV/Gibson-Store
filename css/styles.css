@@ -161,7 +161,7 @@ body {
 }
 
 hr {
-    margin-top: 1rem;
+    margin-top: 3rem;
     margin-bottom: 1rem;
     border: 0;
     border-top: 1px solid rgba(0,0,0,.1);
@@ -205,6 +205,42 @@ hr {
     color: #ffff;
     font-size: 1.2rem;
 }
+
+.shop {
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+
+.price {
+
+    
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.add-cart-button {
+
+    display: block;
+    width: 300px;
+    border: none;
+    text-decoration: none;
+    margin-bottom: 15px;
+    margin: 0 auto;
+    padding: 10px;
+    color: #ffff;
+    background-color: #84734d;
+}
+
+.add-to-cart {
+
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 
 .footer   {
 
